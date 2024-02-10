@@ -47,8 +47,8 @@
   }
   
   .login-box {
-    width: 80%; /* Adjusted width for better responsiveness */
-    max-width: 400px; /* Maximum width to prevent stretching on large screens */
+    width: 80%; 
+    max-width: 400px; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,8 +60,9 @@
   }
   
   .login-box h2 {
+    font-weight: bold;
     margin: 20px;
-    color: red; /* Adjusted text color */
+    color: red; 
   }
   
   .login-box form {
@@ -79,10 +80,10 @@
   
   .login-box button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #028614;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
   }
   
@@ -92,7 +93,7 @@
   
   @media (min-width: 0px) and (max-width: 768px) {
     .login-box {
-      width: 60%; 
+      width: 90%; 
       margin-top: -100px;
     }
   .login-page{
