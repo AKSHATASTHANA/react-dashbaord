@@ -33,9 +33,6 @@ function Dashboard() {
     setSearchTerm(e.target.value);
   };
 
-  const filteredItems = items.filter(item =>
-    item.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   return (
     <div>
